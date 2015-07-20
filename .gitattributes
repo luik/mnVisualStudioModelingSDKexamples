@@ -1,0 +1,4 @@
+*.txt eol=lf
+*.cs eol=lf
+*.xml eol=lf
+*.csproject eol=lf
