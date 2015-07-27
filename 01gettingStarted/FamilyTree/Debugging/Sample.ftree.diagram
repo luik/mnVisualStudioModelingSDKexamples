@@ -14,5 +14,14 @@
         <exampleShapeMoniker Id="ac6935c7-3f4d-45af-b0ad-93d6ee9b67cf" />
       </nodes>
     </exampleConnector>
+    <exampleShape Id="ab75ce69-2210-4541-96b2-4ac14c89051d" absoluteBounds="4.875, 2.625, 2, 0.75">
+      <exampleElementMoniker name="/aaaa1ba9-b368-4d05-90a1-6e3578c0651f/ExampleElement3" />
+    </exampleShape>
+    <exampleConnector Id="09db252a-04c1-4679-a3b3-59b64a9a6dd4" edgePoints="[(5.9375005 : 2.625); (5.9375005 : 0.875); (5 : 0.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="28849521-372b-41bf-b72c-baee630e2f3c">
+      <nodes>
+        <exampleShapeMoniker Id="ab75ce69-2210-4541-96b2-4ac14c89051d" />
+        <exampleShapeMoniker Id="ac6935c7-3f4d-45af-b0ad-93d6ee9b67cf" />
+      </nodes>
+    </exampleConnector>
   </nestedChildShapes>
 </familyTreeDiagram>

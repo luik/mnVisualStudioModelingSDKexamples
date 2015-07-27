@@ -7,5 +7,10 @@
       </targets>
     </exampleElement>
     <exampleElement Id="6dae72ed-c3e1-4988-b849-54a7ac1471e9" name="ExampleElement2" />
+    <exampleElement Id="94c6dbb1-84ed-46d3-9be4-837df11b4931" name="ExampleElement3">
+      <targets>
+        <exampleElementMoniker name="/aaaa1ba9-b368-4d05-90a1-6e3578c0651f/ExampleElement2" />
+      </targets>
+    </exampleElement>
   </elements>
 </exampleModel>

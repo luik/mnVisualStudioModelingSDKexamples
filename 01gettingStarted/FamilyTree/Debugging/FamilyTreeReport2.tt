@@ -1,0 +1,35 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".cs" #>
+<#@ FamilyTree processor="FamilyTreeDirectiveProcessor" requires="fileName='Sample.ftree'" #>
+
+//Generated material. Generating code in C#.
+
+using System;
+using System.Collections.Generic;
+using Core;
+
+public class ElementsProvider
+{
+	private List<Element> elements;
+	public List<Element> Elements
+	{
+		get {return elements;}
+	}
+
+	public ElementsProvider()
+	{
+		elements = new List<Element>();
+
+		<#
+		// When you change the DSL Definition, some of the code below may not work.
+
+		foreach (ExampleElement element in this.ExampleModel.Elements)
+		{
+		#>
+elements.Add(new Element("<#= element.Name #>"));
+		<#    
+		}
+		#>
+}
+
+}
