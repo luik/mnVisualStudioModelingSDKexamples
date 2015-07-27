@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<familyTree2Diagram dslVersion="1.0.0.0" Id="37afe1cf-8460-4633-b48f-103b5051a07d" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <exampleModelMoniker Id="7b408e76-d12b-46cd-bc62-eb9aa17bd3cb" />
+  <nestedChildShapes>
+    <exampleShape Id="21189b44-7c34-49cf-b0d4-97a567c5575b" absoluteBounds="0.5, 1.75, 2, 0.75">
+      <exampleElementMoniker name="/7b408e76-d12b-46cd-bc62-eb9aa17bd3cb/ExampleElement1test" />
+    </exampleShape>
+    <exampleShape Id="0e3962a1-57cf-40d5-94aa-4f449366cfcd" absoluteBounds="3, 0.5, 2, 0.75">
+      <exampleElementMoniker name="/7b408e76-d12b-46cd-bc62-eb9aa17bd3cb/ExampleElement2" />
+    </exampleShape>
+    <exampleConnector Id="c9825785-5777-4b90-bf29-c7eb70faa3bd" edgePoints="[(1.5 : 1.75); (1.5 : 0.875); (3 : 0.875)]" fixedFrom="NotFixed" fixedTo="NotFixed" TargetRelationshipDomainClassId="3faa0aab-3f25-4aad-9167-c10cfce3badb">
+      <nodes>
+        <exampleShapeMoniker Id="21189b44-7c34-49cf-b0d4-97a567c5575b" />
+        <exampleShapeMoniker Id="0e3962a1-57cf-40d5-94aa-4f449366cfcd" />
+      </nodes>
+    </exampleConnector>
+  </nestedChildShapes>
+</familyTree2Diagram>

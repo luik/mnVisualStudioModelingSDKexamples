@@ -196,3 +196,5 @@ FakesAssemblies/
 *.opt
 01gettingStarted/FamilyTree/Dsl/GeneratedCode/
 01gettingStarted/FamilyTree/DslPackage/GeneratedCode/
+01gettingStarted/FamilyTree2/Dsl/GeneratedCode/
+01gettingStarted/FamilyTree2/DslPackage/GeneratedCode/
